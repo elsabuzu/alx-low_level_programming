@@ -1,13 +1,11 @@
 #include <stdio.h>
 
+/**
+ * main -> prints the sizeof various types on the computer
+ * it is compiled and run on.
+ * return zero
+ */
 int main(void)
-	/**
-	 * main ->prints the size of various types on the computer
-	 * 	it is complied and run on.
-	 *
-	 * in size32 and size64
-	 * return 0
-	 */
 {
 	printf("size of a char:%zu byte(s)\n", sizeof(char));
 	printf("size of an int:%zu byte(s)\n", sizeof(int));
