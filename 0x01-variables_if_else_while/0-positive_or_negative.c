@@ -6,7 +6,7 @@
  * main-> isa function that prints random number and state whether
  *         it is positive, negative or zero.
  *
- * return:always zero.
+ * Return:always zero.
  */
 int main(void)
 {
@@ -24,7 +24,7 @@ int main(void)
 		printf("%d is negative\n", n);
 	}
 	else
-		printf("%d is zero", n);
+		printf("%d is zero\n", n);
 
 	return (0);
 }
