@@ -4,7 +4,7 @@
  * main ->prints exactly and that piece of art is useful"
  *  - Dora Kopar , 2015-10-19,
  *
- * return: prints always one  value.
+ * Return:return  always one  value.
  */
 int main(void)
 {
