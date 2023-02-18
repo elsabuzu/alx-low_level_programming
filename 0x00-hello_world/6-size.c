@@ -1,9 +1,10 @@
 #include <stdio.h>
 
 int main(void)
-	
 	/**
-	 * prints the size of various types on the computer
+	 * main ->prints the size of various types on the computer
+	 * 	it is complied and run on.
+	 *
 	 * in size32 and size64
 	 * return 0
 	 */
