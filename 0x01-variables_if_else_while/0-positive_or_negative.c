@@ -3,7 +3,7 @@
 #include<stdio.h>
 
 /**
- * main -> program that prints random number and state whether 
+ * main-> isa function that prints random number and state whether
  *         it is positive, negative or zero.
  *
  * return:always zero.
@@ -24,7 +24,7 @@ int main(void)
 		printf("%d is negative\n", n);
 	}
 	else
-		printf("%d is Zero", n);
+		printf("%d is zero", n);
 
 	return (0);
 }
