@@ -2,6 +2,8 @@
 
 /*
  * main - prints combination of two two-digits.
+ *       range fro 0 to 99, separated by a comma followed by space.
+ *
  * Return: always 0.
  */
 int main(void)
