@@ -4,7 +4,6 @@
  * main - print number 1 upto 10
  * Return: zero.
  */
-
 int main(void)
 {
 	int num;
@@ -15,5 +14,6 @@ int main(void)
 	}
 
 	printf("\n");	
+	
 	return (0);
 }
