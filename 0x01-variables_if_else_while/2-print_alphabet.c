@@ -4,7 +4,7 @@
 
 /**
  * main - prints lower case alphabet
- * Return - zero.
+ * Return: zero.
  */
 int main(void)
 {
@@ -13,11 +13,11 @@ int main(void)
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 
-	for ( n = 'a'; n <= 'z'; n++)
+	for (n = 'a'; n <= 'z'; n++)
 	{
 		putchar (n);
-		putchar ('\n');
 	}
+	putchar ('\n');
 
 	return (0);
 }
