@@ -1,8 +1,8 @@
 #include<stdio.h>
 /**
- * main-prints the sum of all multiples 
+ * main - prints the sum of all multiples
  * of 3 and 5 below 1024.
- * @n:input natural numbers.
+ *
  * Return: always 0.
  */
 int main(void)
