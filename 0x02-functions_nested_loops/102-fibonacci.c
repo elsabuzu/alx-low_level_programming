@@ -11,7 +11,7 @@ int main(void)
 	unsigned long a = 1, b = 2, fn;
 
 	printf("%ld, %ld", a, b);
-	for (count = 0; count < 50; count++)
+	for (count = 0; count < 48; count++)
 	{
 		fn = a + b;
 		printf(", %ld", fn);
