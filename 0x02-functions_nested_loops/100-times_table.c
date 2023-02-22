@@ -1,8 +1,7 @@
 #include "main.h"
 /**
- * print_times_table - prints n times table starting from 0.
- * @n-value of number times table.
- * 
+ * print_times_table - prints the times table starting with 0.
+ * @n-value of number times table. 
  */
 void print_times_table(int n)
 {
@@ -30,7 +29,7 @@ void print_times_table(int n)
 				else if (prod <= 99)
 				{
 					_putchar(32);
-					_putchar((prod / 10) +48);
+					_putchar((prod / 10) + 48);
 					_putchar((prod % 10) + 48);
 				}
 				else
