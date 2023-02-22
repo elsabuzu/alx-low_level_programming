@@ -5,8 +5,7 @@
  */
 int main(void)
 {
-	unsigned long n1 = 1, n2 = 2, fn;
-	float sum;
+	long int  n1 = 1, n2 = 2, fn, sum;
 
 	while(fn <= 4000000)
 	{
