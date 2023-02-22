@@ -10,17 +10,14 @@ int main(void)
 	int count;
 	unsigned long a = 1, b = 2, fn;
 
+	printf("%ld, %ld", a, b);
 	for (count = 0; count < 50; count++)
 	{
 		fn = a + b;
 		printf(", %ld", fn);
 		a = b;
 		b = fn;
-
-		if (count == 49)
-			printf("\n");
-		else
-			printf(", ");
 	}
+	print("\n");
 	return (0);
 }
