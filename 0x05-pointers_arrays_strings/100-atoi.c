@@ -1,5 +1,8 @@
 #include "main.h"
 /**
+ * _atoi - convert string to integer.
+ * @s: input string.
+ * Return: integer.
  */
 int _atoi(char *s)
 {
@@ -13,7 +16,7 @@ int _atoi(char *s)
 		if (*(s + i) == '-')
 			pn *= -1;
 		
-		if ((*(s + i) >= '0' && (*(s + i) <= '9')))
+		if ((*(s + i) >= '0') && (*(s + i) <= '9'))
 		{
 			if (l > 0)
 				m *= 10;
