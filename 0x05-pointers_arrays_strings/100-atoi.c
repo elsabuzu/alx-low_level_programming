@@ -19,8 +19,7 @@ int _atoi(char *s)
 			n = 1;
 			l = (l * 10) + (s[i] - '0');
 			i++;
-		}
-		
+		}		
 		if (n == 1)
 		{
 			break;
@@ -31,3 +30,4 @@ int _atoi(char *s)
 	l *= m;
 	return (l);
 }
+
