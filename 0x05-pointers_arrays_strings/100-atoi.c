@@ -6,7 +6,8 @@
  */
 int _atoi(char *s)
 {
-	unsigned int i = 0, l = 0, m = 1, n = 0;
+	int i = 0, m = 1, n = 0;
+	unsigned int l = 0;
 
 	while (s[i])
 	{
@@ -30,4 +31,3 @@ int _atoi(char *s)
 	l *= m;
 	return (l);
 }
-
