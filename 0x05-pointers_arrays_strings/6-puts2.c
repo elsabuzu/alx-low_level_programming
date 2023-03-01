@@ -1,13 +1,13 @@
 #include "main.h"
 #include<stdio.h>
 /**
- * puts - prints character string starting from the first.
+ * puts2 - prints character string starting from the first.
  * @str: pointer to the string
  */
 
 void puts2(char *str)
 {
-	int i = 0;
+	int i = 0; 
 	while (str[i] != '\0')
 	{
 		if (i % 2 == 0)
