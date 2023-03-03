@@ -3,7 +3,7 @@
  * _srtcmp - compares strings.
  * @s1:string one.
  * @s2:string two.
- * return:zero.
+ * Return:zero.
  */
 
 int _strcmp(char *s1, char *s2)
