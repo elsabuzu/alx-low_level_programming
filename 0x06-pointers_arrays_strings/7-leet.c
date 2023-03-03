@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * leet - encoding a string to 1337.
- * @l - string.
+ * @l:string.
  * Return: address of l.
  */
 
@@ -13,7 +13,7 @@ char *leet(char *l)
 
 	for (i = 0; *(l + i); i++)
 	{
-		for ( j = 0; j <= 9; j++)
+		for (j = 0; j <= 9; j++)
 		{
 			if (a[j] == l[i])
 			{
