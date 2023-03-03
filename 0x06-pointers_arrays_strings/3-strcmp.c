@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _srtcmp - compares strings.
+ * _strcmp - compares strings.
  * @s1:string one.
  * @s2:string two.
  * Return:zero if the value is  zero.
