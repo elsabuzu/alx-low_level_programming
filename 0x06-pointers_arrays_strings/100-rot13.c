@@ -23,4 +23,4 @@ char *rot13(char *r)
 		}
 	}
 	return (r);
-i}
+}
